@@ -1,0 +1,669 @@
+
+
+
+/* Add some padding and a grey background color to containers */
+.container {
+
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 70%;
+  padding: 2px;
+  margin: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 2px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #5C80FF;
+  color: white;
+  border: none;
+  width: 70%;
+  width: 100px;
+  height: 30px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+html{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    margin:0;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --blue:  #702A9F;
+    --blueHover:  #9549c7;
+}
+
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*  Styling */
+
+.menu .logo {
+    width: 6.5em;
+}
+
+
+.menu nav {
+    background-color: #071555;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+  height: 54.5px;
+    padding: 2em;
+    position: relative;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    position: relative;
+    padding: .2em;
+    color: white;
+}
+
+
+a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background-color: white;
+    height: .15em;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+/* Burger Styling */
+
+.burger {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+.line {
+    width: 3em;
+    height: .3em;
+    background: white;
+    margin: .7em;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+
+
+hr{
+margin: 100px;
+}
+.glowny{
+  width: 100%;
+
+}
+.head {
+
+    width: 100%;
+    float: top;
+
+
+}
+.a3 img{
+  height: 40px;
+}
+.menu3{
+
+  display: none;
+}
+.logo{
+  float: left;
+width:40%;
+text-align: left;
+background-color: #071555;
+height: 94.5px;
+}
+.menu{
+  text-align: right;
+  float: right;
+  height: 94.5px;
+width:60% ;
+
+background-color: #071555;
+text-align: right;
+}
+.banner{
+  font-family: 'Open Sans', sans-serif;
+
+  background-color: #071555;
+  color: white;
+font-size: 15px;
+margin-bottom: 0px;
+}
+.text1{
+  height: 300px;
+  width: 50%;
+  background-color: #071555;
+  padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+
+}
+.text1 h2{
+  font-size: 35px;
+}
+
+.ban{
+  background-color: #071555;
+  height: 300px;
+  float: right;
+  width: 50%;
+  padding-bottom: 20px;
+}
+.ban img{
+  padding-top: 40px;
+  height: 250px;
+}
+.button {
+  background-color: #5C80FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  border-radius: 4px;
+}
+.maintext{
+  background-color: white;
+  padding-top:10px;
+  text-align: left;
+
+}
+.lewo h1{
+  padding-left: 40px;
+    padding-top: 40px;
+    font-size: xx-large;
+}
+.maintext p{
+  font-size: 20px;
+  padding: 40px;
+  padding-top: 0px;
+
+}
+.lewo{
+  width: 35%;
+    float: left;
+}
+
+.prawo{
+  float: left;
+  width: 65%;
+}
+.c1{
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-top: 40px;
+
+
+  width: 300px;
+  height: 300px;
+border: 1px solid black;
+  float: left;
+  margin-left: 20px;
+}
+.c1 p{
+font-size: 15px;
+}
+.c1 img{
+
+  text-align: left;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+.c1 h3{
+  font-size: 27px;
+  padding-left: 30px;
+}
+.c2{
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-top: 40px;
+
+
+  width: 300px;
+  height: 300px;
+border: 1px solid black;
+  float: left;
+  margin-left: 20px;
+}
+.c2 p{
+font-size: 15px;
+}
+.c2 img{
+
+  text-align: left;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+.c2 h3{
+  font-size: 27px;
+  padding-left: 30px;
+}
+.prawy1{
+  margin-bottom: 40px;
+    margin-top: 80px;
+  width: 40%;
+float: left;
+}
+.lewy1{
+margin-bottom: 40px;
+  margin-top: 80px;
+  text-align: center;
+  width: 60%;
+  float: left;
+}
+
+
+
+.footer{
+  width: 100%;
+background-color: #071555;
+color: white;
+float: left;
+}
+
+.asd1{
+  background-color: #071555;
+  text-align: left;
+  float: left;
+  width: 50%;
+}
+.asd2{
+  background-color: #071555;
+  text-align: left;
+  float: left;
+  width: 50%;
+}
+ul{
+  list-style: none;
+  color: white;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.rest{
+text-align: center;
+}
+.a1{
+    list-style: none;
+  background-color: #071555;
+width: 25%;
+  text-align: left;
+  float: left;
+  height: 150px;
+  font-size: 15px;
+
+
+}
+.a1 h4{
+  padding-left: 20px;
+}
+.a11{
+    list-style: none;
+  background-color: #071555;
+  width: 25%;
+  float: left;
+  height: 200px;
+}
+.a2{
+    list-style-type: none;
+  background-color: #071555;
+  width: 50%;
+  float: left;
+height: 150px;
+}
+.a3{
+  background-color: #071555;
+  width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .lewo{
+    width: 100%;
+      float: none;
+
+  }
+
+  .prawo{
+    float: none;
+    width: 100%;
+  }
+
+html{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.glowny{
+  width: 600px;
+
+}
+.head {
+    background-color: #071555;
+    width: 100%;
+    float: top;
+height: 54.5px;
+
+}
+.menu3{
+height: 54.5px;
+float: right;
+width: 70%;
+text-align: right;
+}
+.logo{
+  float: left;
+width: 50%;
+text-align: left;
+background-color: #071555;
+}
+.menu{
+
+  height: 54.5px;
+  float: right;
+  width: 50%;
+  text-align: right;
+  background-color: #071555;
+
+
+
+
+background-color: #071555;
+text-align: right;
+}
+.banner{
+  font-family: 'Open Sans', sans-serif;
+
+  background-color: #071555;
+  color: white;
+font-size: 15px;
+margin-bottom: 0px;
+}
+.text1{
+  background-color: #071555;
+  padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+width: 100%;
+
+}
+.ban{
+  height: 200px;
+  width: 100%;
+}
+.ban img{
+height: 150px;
+}
+p {
+padding: 20px;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+margin: 2px;
+padding-right: 34px;
+}
+.button {
+  background-color: #5C80FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.maintext{
+  background-color: white;
+  padding-top:10px;
+  text-align: left;
+
+}
+
+.maintext p{
+  font-size: 20px;
+  padding: 40px;
+  padding-top: 0px;
+
+}
+.c1{
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-top: 40px;
+  margin-left: 150px;
+
+  width: 300px;
+  height: 300px;
+border: 1px solid black;
+  float: center;
+}
+.c1 p{
+font-size: 15px;
+}
+.c1 img{
+
+  text-align: left;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+.c1 h3{
+  font-size: 27px;
+  padding-left: 30px;
+}
+
+.c2{
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-top: 40px;
+margin-left: 150px;
+  width: 300px;
+  height: 300px;
+border: 1px solid black;
+  float: left;
+}
+.c2 p{
+font-size: 15px;
+}
+
+.c2 img{
+
+  text-align: left;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+
+.c2 h3{
+  font-size: 27px;
+  padding-left: 30px;
+}
+.onas{
+  text-align: center;
+  margin-top: 0px;
+  background-color: white;
+  width: 100px;
+}
+.onas p{
+  text-align: left;
+  margin: 20px;
+  font-size: 16px;
+
+  padding-left: 30px;
+}
+
+.onas img{
+
+}
+.lewy1{
+  width: 600px;
+  margin-bottom: 0px;
+}
+.prawy1{
+  margin-top: 0px;
+  width: 600px;
+}
+.footer{
+  width: 100%;
+background-color: #071555;
+color: white;
+}
+
+
+.rest{
+  text-align: center;
+}
+.a1{
+  width: 50%;
+}
+.a11{
+  width: 100%;
+}
+.a2{
+  float: left;
+  width: 100%;
+  height: 250px;
+}
+.a3{
+  float: left;
+  width: 600px;;
+}
+.a3 img{
+  width: 400px;
+
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding-right: 40px;
+  padding-left: 40px;
+
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #5C80FF;
+  color: white;
+  border: none;
+  width: 100px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+.burger {
+      display: block;
+      transition: .3s ease-in-out;
+  }
+
+  .burger.active .line:first-child {
+      transform: translateY(-300px);
+  }
+
+  .burger.active .line:nth-child(2) {
+      transform: rotate(-405deg) translateY(8px);
+  }
+
+  .burger.active .line:nth-child(3) {
+      transform: rotate(-320deg) translateY(-10px);
+  }
+
+
+
+  .menu ul {
+    background-color: #071555;
+      position: absolute;
+      right: 0;
+      top: 8vh;
+      background-color: #071555;
+      height: 60vh;
+      flex-direction: column;
+      text-align: center;
+      transform: translate(100%);
+      transition: .3s ease-in-out;
+  }
+
+  .menu ul.active {
+      transform: translate(0%);
+  }
+
+  .menu a {
+      color: whitesmoke;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+  }
+}
+
+
+
+}
